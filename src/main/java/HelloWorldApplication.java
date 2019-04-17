@@ -13,7 +13,7 @@ public class HelloWorldApplication extends SpringBootServletInitializer {
     @RequestMapping(value = "/sayHello")
     @ResponseBody
     public String sayHello(String name){
-        return "Hello,gma";
+        return "Hello, gma" + name;
     }
 
     public static void main(String[] args) {
