@@ -1,0 +1,4 @@
+xshell6 连接vagrant ssh密钥匙文件
+在导入里选择 vagrant文件里的 下面文件里选择
+\.vagrant\machines\default\virtualbox\private_key
+
